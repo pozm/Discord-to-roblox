@@ -31,7 +31,6 @@ const req = async () => {
             process.stdout.write(`\rUnable to find any results for ${res}\n`)
 
         })
-        String.from
         if (api1Data) {
             jsn = JSON.parse(api1Data.body)
 
